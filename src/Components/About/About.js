@@ -49,7 +49,8 @@ const About = () => {
                     </div>
                     <div className="mb-3">
                         <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea className="form-control mb-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="button" className="btn btn-primary">submit</button>
                     </div>
                 </div>
                 <div className="col-12 col-md-6">
