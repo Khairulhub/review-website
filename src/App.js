@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Blog from './Components/Blog/Blog';
 import LogIn from './Components/LogIn/LogIn';
 import NotFound from './Components/NotFound/NotFound';
+import SignIn from './Components/SignIn/SignIn';
 
 function App() {
   const array =[0,1,2,3]
@@ -35,6 +36,10 @@ function App() {
           <Route path="/login">
             <LogIn></LogIn>
           </Route>
+          <Route path="/signup">
+            <SignIn></SignIn>
+          </Route>
+
           <Route path="*">
             <NotFound></NotFound>
           </Route>

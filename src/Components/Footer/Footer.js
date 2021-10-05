@@ -1,35 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import img from '../../images/iubat.jfif'
 
 const Footer = () => {
     return (
         <div className="container-fluid bg-secondary  ">
             <div className="container">
-                <div className="row pt-5 ">
+                <div className="row pt-5  ">
 
-                    <div className="col-12 col-md-3 border border-1 shadow-sm p-3 mb-5 bg-body rounded">
-                        <h1>Book-Bd</h1>
+                    <div className="col-12 col-md-3 shadow-sm  mb-5 bg-primary p-2 rounded">
+                        <img src={img} alt="" />
+                        <article> Repellat eos quaerat sunt, reprehenderit voluptates enim nemo quia perspiciatis temporibus in, molestias aliquam consectetur? Aliquam quas.</article>
+                    </div>
+                    <div className=" col-12 col-md-3  shadow-sm  mb-5 bg-primary p-2 rounded ">
+                        <h1 className="text-decoration-underline">Components</h1><br />
+                        <Link to="/home"  className="text-dark">Home</Link><br />
+                        <Link to="/about" className="text-dark">About</Link><br />
+                        <Link to="/services" className="text-dark">Services</Link><br />
+                        <Link to="/blog" className="text-dark">Blog</Link><br />
+                    </div>
+                    <div className=" col-12 col-md-3  shadow-sm  mb-5 bg-primary p-2 rounded">
+                        <h1 className="text-decoration-underline">Book-Bd</h1>
                         <br />
                         <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos quaerat sunt, reprehenderit voluptates enim nemo quia perspiciatis temporibus in, molestias aliquam consectetur? Aliquam quas, velit non quam doloribus blanditiis.</article>
                     </div>
-                    <div className=" col-12 col-md-3 border border-1 shadow-sm p-3 mb-5 bg-body rounded">
-                        <h1>Components</h1><br />
-                        <Link to="/home">Home</Link><br />
-                        <Link to="/about">About</Link><br />
-                        <Link to="/services">Services</Link><br />
-                        <Link to="/blog">Blog</Link><br />
-                    </div>
-                    <div className=" col-12 col-md-3 border border-1 shadow-sm p-3 mb-5 bg-body rounded">
-                        <h1>Book-Bd</h1>
-                        <br />
-                        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos quaerat sunt, reprehenderit voluptates enim nemo quia perspiciatis temporibus in, molestias aliquam consectetur? Aliquam quas, velit non quam doloribus blanditiis.</article>
-                    </div>
 
-                    <div className="col-12 col-md-3 border border-1 shadow-sm p-3 mb-5 bg-body rounded">
-                        <h1>Social-Link</h1><br />
-                        <Link to="/home">facebook</Link><br />
-                        <Link to="/about">twitter</Link><br />
-                        <Link to="/services">whatsapp</Link><br />
+                    <div className="col-12 col-md-3  shadow-sm  mb-5 bg-primary p-2 rounded ">
+                        <h1 className="text-decoration-underline">Social-Link</h1><br />
+                        <Link to="https://web.facebook.com/profile.php?id=100069895190183"className="text-dark">facebook</Link><br />
+                        <Link to="/about" className="text-dark">twitter</Link><br />
+                        <Link to="/services" className="text-dark">whatsapp</Link><br />
                        
                     </div>
                 </div>

@@ -45,7 +45,7 @@ const Home = (props) => {
                         <img className="img1" src={img} alt="" />
                     </div>
                     <div className="col-md-8 col-12">
-                        <h2>About Us</h2>
+                        <h2 className="text-decoration-underline fw-bold">About Us</h2>
                         <div className="text">
                             <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quisquam recusandae consectetur dicta quidem officia, doloribus eius nesciunt ab praesentium. Cumque iure explicabo natus eveniet aut cupiditate, nesciunt delectus dolorum?</article>
                             <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quisquam recusandae consectetur dicta quidem officia, doloribus eius nesciunt ab praesentium. Cumque iure explicabo natus eveniet aut cupiditate, nesciunt delectus dolorum?</article>
@@ -54,7 +54,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className="row m-4">
-
+                    <h1 className="text-decoration-underline fw-bold mt-4 mb-4">Services</h1>
                     {
                         service.length ? (
 
